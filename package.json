@@ -1,23 +1,19 @@
 {
-  "name": "react-bootstrap-tabs-demo",
+  "name": "masterclass",
   "version": "0.0.1",
-  "description": "Demo of React Bootstrap Tabs",
+  "description": "Master apllication test",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dist": "webpack -p --config webpack.prod.conf.js",
-    "deploy": "git subtree push --prefix public origin gh-pages"
+    "dist": "webpack -p --config webpack.prod.conf.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeranger/react-bootstrap-tabs-demo.git"
+    "url": "https://github.com/nakalissi/masterclass.git"
   },
-  "author": "freeranger",
+  "author": "nakalissi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/freeranger/react-bootstrap-tabs-demo/issues"
-  },
-  "homepage": "https://github.com/freeranger/react-bootstrap-tabs-demo",
+  "homepage": "",
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^3.3.7",
